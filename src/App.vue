@@ -1,12 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import NavBarView from './views/NavBarView.vue';
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <!-- <NavbarVue /> -->
-      <!-- App.vue is always render -->
+   <NavBarView />
     </div>
   </header>
 
