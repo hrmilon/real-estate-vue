@@ -1,3 +1,5 @@
-### Real Estate landing page vue
+### Real Estate landing page - vue
 
-## Static landing page of real state application
+Real Estate landing page technology is being used 
+- Vue
+- Shadcn
