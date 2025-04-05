@@ -3,6 +3,7 @@ import Article from '@/components/custom/Article.vue';
 import Carousel from '@/components/custom/Carousel.vue';
 import HelpTools from '@/components/custom/HelpTools.vue';
 import Hero from '@/components/custom/Hero.vue';
+import Section from '@/components/custom/Section.vue';
 
 
 
@@ -14,5 +15,6 @@ import Hero from '@/components/custom/Hero.vue';
     <Carousel />
     <HelpTools />
     <Article />
+    <Section />
   </main>
 </template>
