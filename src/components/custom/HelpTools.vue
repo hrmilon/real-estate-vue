@@ -47,8 +47,10 @@ const helps = [
         </div>
 
         <!-- card -->
-        <div class="flex flex-row justify-center gap-2">
-            <Card v-for="help in helps" v-bind:key="help" class="w-[400px] h-[200px]">
+        <!-- <div class="flex flex-row justify-center gap-2"> -->
+        <div class="flex flex-col md:flex-row justify-center gap-4 md:gap-2">
+
+            <Card v-for="help in helps" v-bind:key="help" class="w-[250px] md:w-[400px] h-[250px] md:h-[200px]">
                 <CardHeader>
                     <div class="flex justify-between">
                         <div>
@@ -65,7 +67,7 @@ const helps = [
                 </CardContent>
                 <CardFooter>
                     <p class="text-sm">
-                        <RouterLink class="underline" to="/" >{{ help.action }}</RouterLink> 
+                        <RouterLink class="underline" to="/">{{ help.action }}</RouterLink>
                     </p>
                 </CardFooter>
             </Card>
